@@ -78,7 +78,7 @@ button[name="login"]{
   border: 1px solid #4e8cb6;
 }
 
-button[name="piano"]{
+.btn-green{
   background-color: #7fb802;;
   width: 140px;
   height: 30px;
@@ -110,7 +110,7 @@ button[name="piano"]{
  font-size: 30px;
 }
 
-button[name="piano-big"]{
+.btn-green-big{
   background-color: #7fb802;;
   width: 180px;
   height: 40px;
@@ -187,7 +187,7 @@ h3{
 /* SEZIONE A 2 */
 .widget-med{
   width: 50%;
-  height: 100%;
+  height: 500px;
   float: left;
   padding: 50px 20px;
   text-align: center;
@@ -205,7 +205,7 @@ h3{
 
 h2{
   font-size: 28px;
-  padding: 20px;
+  /* padding: 20px; */
   line-height: 1.5em;
 }
 
@@ -242,7 +242,7 @@ h2{
   font-size: 26px;
 }
 
-button[name="piano-bigger"]{
+.btn-green-bigger{
   background-color: #7fb802;;
   width: 220px;
   height: 40px;
@@ -261,12 +261,12 @@ button[name="piano-bigger"]{
 
 .widget-40{
   width: 40%;
+  padding-left: 80px
 }
 
-.text-lezioni{
+.text-left{
   text-align: left;
-  /* padding-right: 100px; */
-  padding-left: 80px;
+  padding-left: 120px;
 }
 
 .white{
@@ -277,8 +277,7 @@ button[name="piano-bigger"]{
   color: #f8b71c;
 }
 
-.text-lezioni p{
-  padding-left: 20px;
+.text-left p{
   padding-bottom: 20px;
   color: #fff;
   opacity: 0.5;
@@ -286,11 +285,47 @@ button[name="piano-bigger"]{
   line-height: 1.5em;
 }
 
-.text-lezioni a{
+.text-left a{
   color: #98c8f8;
   text-decoration: underline;
   font-size: 16px;
-  padding-left: 20px;
+}
+
+
+
+/* SESTO BLOCCO */
+.img-shake{
+  width: 80%;
+}
+
+.black{
+  color: #4a4a4a;
+}
+
+.shake-left{
+  text-align: left;
+  /* padding-left: 150px; */
+}
+
+.wrapper-shake p{
+  padding: 40px 0;
+  font-size: 15px;
+}
+
+.btn-shake{
+  float: left;
+  width: 40%;
+  margin: 0;
+  font-size: 13px;
+}
+
+.text-small-blue p{
+  text-align: center;
+  font-size: 14px;
+  color: #a7d0f9;
+  padding: 0;
+  width: 40%;
+  float: right;
 }
 
 /* FOOTER */
