@@ -453,6 +453,18 @@ h5{
   color: #7fb802;
 }
 
+
+/* ULTIMO */
+.last{
+  padding-left: 15%;
+  padding-top: 30px;
+}
+
+.last p{
+  color: #fff;
+  opacity: .5;
+}
+
 /* FOOTER */
 footer{
   background-color: #17406b;
