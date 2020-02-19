@@ -16,7 +16,7 @@ nav{
 }
 
 .container-nav{
-  width: 65%;
+  width: 75%;
   height: 100%;
   position: relative;
   padding: 10px 40px;
@@ -80,23 +80,33 @@ button[name="piano"]{
 
 /* MAIN */
 .blue{
-  /* debug */
-  background-color: blue;
-  /* debug */
+  background-color: #0d325a;
   height: 520px;
 }
 
 .big{
+  height: 420px;
   padding-left: 15%;
   padding-top: 100px;
+  background-image: url(img/oldman.png);
+  background-position: right bottom;
+  background-size: 50%;
+  background-repeat: no-repeat;
 }
 
 .titolo{
-  /* debug */
-  background-color: white;
-  height: 300px;
-  width: 500px;
-  /* end debug */
+  width: 50%;
+ color: white;
+ font-size: 30px;
+}
+
+button[name="piano-big"]{
+  background-color: #7fb802;;
+  width: 180px;
+  height: 40px;
+  border: 1px solid #7fb802;
+  font-size: 12px;
+  margin-top: 40px;
 }
 
 .small{
