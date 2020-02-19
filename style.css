@@ -359,6 +359,25 @@ h2{
   font-size: 16px;
 }
 
+
+/* OTTAVO BLOCCO */
+.big-2{
+  background-image: url(img/talking.png);
+  background-size: 45%;
+}
+
+.talking{
+  width: 40%;
+}
+
+.talking p{
+  color: #fff;
+  opacity: .5;
+  font-size: 18px;
+  padding-top: 30px;
+  padding-right: 100px;
+}
+
 /* FOOTER */
 footer{
   background-color: #17406b;
