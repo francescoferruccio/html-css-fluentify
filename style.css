@@ -1,0 +1,44 @@
+/* REGOLE GENERALI */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* HEADER */
+nav{
+  /* debug */
+  background-color: yellow;
+  /* end debug */
+  height: 80px;
+}
+
+/* MAIN */
+.blue{
+  /* debug */
+  background-color: blue;
+  /* debug */
+  height: 400px;
+}
+
+.small{
+  /* debug */
+  background-color: grey;
+  /* debug */
+  height: 150px;
+}
+
+.white{
+  /* debug */
+  border: 1px solid black;
+  /* end debug */
+  height: 500px;
+}
+
+/* FOOTER */
+footer{
+  /* debug */
+  background-color: lightblue;
+  /* end debug */
+  height: 400px;
+}
