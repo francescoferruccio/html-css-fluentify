@@ -54,6 +54,10 @@ li.navlink{
   margin-left: 5px;
 }
 
+.navlink a:hover{
+  color: #f8b71c;
+}
+
 a{
   text-decoration: none;
   color: white;
@@ -152,7 +156,7 @@ button[name="login"]{
 
 /* SEZIONE A 3 */
 .container{
-  padding: 10px 10%;
+  padding: 0 10%;
   position: relative;
   text-align: center;
 }
@@ -232,15 +236,13 @@ h2{
 /* QUARTO BLOCCO */
 .widget-grey{
   width: 50%;
+  height: 150px;
   float: left;
+  line-height: 150px;
 }
 
-.widget-grey:first-child{
-  padding: 30px 0;
-}
-
-.widget-grey:nth-child(2){
-  padding: 20px;
+.widget-grey h2{
+  line-height: 150px;
 }
 
 .light-grey{
@@ -273,6 +275,7 @@ h2{
 .text-left{
   text-align: left;
   padding-left: 120px;
+  padding-top: 100px;
 }
 
 .white{
@@ -498,6 +501,10 @@ h4{
 
 .link-footer a{
   font-size: 16px;
+}
+
+.link-footer a:hover{
+  text-decoration: underline;
 }
 
 #info{
