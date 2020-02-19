@@ -12,6 +12,10 @@ body{
   font-family: "Montserrat", sans-serif;
 }
 
+button{
+  cursor: pointer;
+}
+
 /* HEADER */
 nav{
   background-color: #0d325a;
@@ -119,18 +123,15 @@ button[name="piano-big"]{
   height: 150px;
 }
 
-
-
 /* SECONDO BLOCCO */
 .grey{
   background-color: #f9f9f9;
   text-align: center;
-  padding: 30px;
 }
 
 .grey p:first-child{
   font-size: 24px;
-  padding: 10px;
+  padding: 40px 0 10px 0;
 }
 
 .grey p:nth-child(2){
@@ -186,11 +187,9 @@ h3{
 /* SEZIONE A 2 */
 .widget-med{
   width: 50%;
-  height: 500px;
   float: left;
   padding: 50px 20px;
   text-align: center;
-  position: relative;
 }
 
 .img-med{
@@ -199,9 +198,6 @@ h3{
 }
 
 .wrapper-med{
-  position: absolute;
-  top: 50%;
-  transform: translate(0, -50%);
   text-align: left;
   padding: 30px 70px;
 }
@@ -223,6 +219,36 @@ h2{
   color: #98c8f8;
   padding: 20px;
   text-decoration: underline;
+}
+
+
+/* QUARTO BLOCCO */
+.widget-grey{
+  width: 50%;
+  float: left;
+}
+
+.widget-grey:first-child{
+  padding: 30px 0;
+}
+
+.widget-grey:nth-child(2){
+  padding: 20px;
+}
+
+.light-grey{
+  color: #b2b2b2;
+  font-size: 26px;
+}
+
+button[name="piano-bigger"]{
+  background-color: #7fb802;;
+  width: 220px;
+  height: 40px;
+  border: 1px solid #7fb802;
+  font-size: 17px;
+  margin-top: 40px;
+  font-weight: bold;
 }
 
 /* FOOTER */
