@@ -10,7 +10,46 @@ nav{
   /* debug */
   background-color: yellow;
   /* end debug */
+  position: relative;
   height: 80px;
+}
+
+.container-nav{
+  background-color: red;
+  width: 65%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 10px 40px;
+}
+
+.logo{
+  /* debug */
+  background-color: white;
+  /* end debud */
+  float: left;
+  height: 40px;
+  width: 120px;
+}
+
+.navbar-main{
+  margin-left: 20px;
+  float: left;
+}
+
+.navbar-sec{
+  margin-left: 20px;
+  float: right;
+}
+
+li{
+  /* debug */
+  background-color: white;
+  width: 60px;
+  height: 40px;
+  /* end debug */
+  display: inline-block;
 }
 
 /* MAIN */
@@ -18,7 +57,20 @@ nav{
   /* debug */
   background-color: blue;
   /* debug */
-  height: 400px;
+  height: 520px;
+}
+
+.big{
+  padding-left: 15%;
+  padding-top: 100px;
+}
+
+.titolo{
+  /* debug */
+  background-color: white;
+  height: 300px;
+  width: 500px;
+  /* end debug */
 }
 
 .small{
@@ -31,8 +83,46 @@ nav{
 .white{
   /* debug */
   border: 1px solid black;
+  height: 520px;
   /* end debug */
+}
+
+/* SEZIONE A 3 */
+.container{
+  /* debug */
+  /* background-color: red; */
+  /* end debug */
+  padding: 10px 15%;
+}
+
+.container:after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.widget-small{
+  /* debug */
+  background-color: green;
+  border: 1px solid white;
+  /* end debug */
+  width: calc(100% / 3);
   height: 500px;
+  float: left;
+  padding: 0 20px;
+}
+
+/* SEZIONE A 2 */
+
+.widget-med{
+  /* debug */
+  background-color: green;
+  border: 1px solid white;
+  /* end debug */
+  width: 50%;
+  height: 500px;
+  float: left;
+  padding: 0 20px;
 }
 
 /* FOOTER */
