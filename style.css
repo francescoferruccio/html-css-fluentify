@@ -142,6 +142,10 @@ button[name="login"]{
 
 
 /* TERZO BLOCCO */
+.white{
+  position: relative;
+}
+
 .white:nth-child(3),.white:nth-child(7) {
   border-bottom: 1px solid rgba(0,0,0,.1);
 }
@@ -149,6 +153,8 @@ button[name="login"]{
 /* SEZIONE A 3 */
 .container{
   padding: 10px 10%;
+  position: relative;
+  text-align: center;
 }
 
 .container:after{
@@ -376,6 +382,75 @@ h2{
   font-size: 18px;
   padding-top: 30px;
   padding-right: 100px;
+}
+
+
+/* NONO BLOCCO */
+.container-small{
+  width: 70%;
+  margin: auto;
+}
+
+.container-small h2{
+  font-size: 30px;
+  padding-top: 30px;
+}
+
+.container-small p{
+  padding: 20px 0;
+  font-size: 14px;
+  line-height: normal;
+}
+
+.container-small a{
+  text-decoration: underline;
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+.container-small .widget-small{
+  text-align: left;
+  padding: 50px 10px;
+}
+
+.icon{
+  width: 37px;
+  height: auto;
+}
+
+h5{
+  font-size: 18px;
+  color: #373a3c;
+  margin-top: 20px;
+}
+
+.widget-mini{
+  height: 180px;
+  margin-bottom: 10px;
+}
+
+.bord-blue{
+  border-bottom: 5px solid #98c8f8;
+}
+
+.text-blue{
+  color: #98c8f8;
+}
+
+.bord-orange{
+  border-bottom: 5px solid #f8b71c;
+}
+
+.text-orange{
+  color: #f8b71c;
+}
+
+.bord-green{
+  border-bottom: 5px solid #7fb802;
+}
+
+.text-green{
+  color: #7fb802;
 }
 
 /* FOOTER */
