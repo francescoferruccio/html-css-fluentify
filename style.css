@@ -91,7 +91,7 @@ button[name="piano"]{
 /* PRIMO BLOCCO */
 .blue{
   background-color: #0d325a;
-  height: 520px;
+  height: 500px;
 }
 
 .big{
@@ -187,6 +187,7 @@ h3{
 /* SEZIONE A 2 */
 .widget-med{
   width: 50%;
+  height: 100%;
   float: left;
   padding: 50px 20px;
   text-align: center;
@@ -249,6 +250,47 @@ button[name="piano-bigger"]{
   font-size: 17px;
   margin-top: 40px;
   font-weight: bold;
+}
+
+
+
+/* QUINTO BLOCCO */
+.widget-60{
+  width: 60%;
+}
+
+.widget-40{
+  width: 40%;
+}
+
+.text-lezioni{
+  text-align: left;
+  /* padding-right: 100px; */
+  padding-left: 80px;
+}
+
+.white{
+  color: #fff;
+}
+
+.orange{
+  color: #f8b71c;
+}
+
+.text-lezioni p{
+  padding-left: 20px;
+  padding-bottom: 20px;
+  color: #fff;
+  opacity: 0.5;
+  font-size: 18px;
+  line-height: 1.5em;
+}
+
+.text-lezioni a{
+  color: #98c8f8;
+  text-decoration: underline;
+  font-size: 16px;
+  padding-left: 20px;
 }
 
 /* FOOTER */
