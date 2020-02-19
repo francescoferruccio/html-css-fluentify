@@ -110,25 +110,34 @@ button[name="piano-big"]{
 }
 
 .small{
-  /* debug */
-  background-color: grey;
-  /* debug */
   height: 150px;
+}
+
+.grey{
+  background-color: #f9f9f9;
+  text-align: center;
+  padding: 30px;
+}
+
+.grey p:first-child{
+  font-size: 24px;
+  padding: 10px;
+}
+
+.grey p:nth-child(2){
+  font-size: 18px;
 }
 
 .white{
   /* debug */
-  border: 1px solid black;
-  height: 520px;
+  /* border: 1px solid black; */
+  /* height: 520px; */
   /* end debug */
 }
 
 /* SEZIONE A 3 */
 .container{
-  /* debug */
-  /* background-color: red; */
-  /* end debug */
-  padding: 10px 15%;
+  padding: 10px 10%;
 }
 
 .container:after{
@@ -138,14 +147,29 @@ button[name="piano-big"]{
 }
 
 .widget-small{
-  /* debug */
-  background-color: green;
-  border: 1px solid white;
-  /* end debug */
   width: calc(100% / 3);
   height: 500px;
   float: left;
   padding: 0 20px;
+  text-align: center;
+}
+
+.img-small{
+  height: 150px;
+  width: auto;
+  margin: 20px;
+}
+
+h3{
+  font-size: 19px;
+  color: #7fb802;
+  margin: 50px;
+}
+
+.widget-small p{
+  font-size: 15px;
+  color: #999;
+  line-height: 1.5em;
 }
 
 /* SEZIONE A 2 */
@@ -178,7 +202,7 @@ footer::after{
   float: left;
 }
 
-h3{
+h4{
   color: #fff;
   font-size: 12px;
   padding-bottom: 5px;
